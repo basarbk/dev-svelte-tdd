@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import SignUpPage from './SignUpPage.svelte';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+const app = new SignUpPage({
+	target: document.body
 });
 
 export default app;
