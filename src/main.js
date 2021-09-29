@@ -1,6 +1,6 @@
-import SignUpPage from './SignUpPage.svelte';
+import RandomUser from './RandomUser.svelte';
 
-const app = new SignUpPage({
+const app = new RandomUser({
 	target: document.body
 });
 
